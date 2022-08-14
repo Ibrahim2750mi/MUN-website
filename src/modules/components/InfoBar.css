@@ -1,0 +1,22 @@
+.MUNInfoBar {
+    background-color: rgb(111, 141, 183);
+    width: 100%;
+    height: 100px;
+}
+
+.InfoBar-logo {
+    text-align: center;
+    position: relative;
+    display: inline-block;
+    top: 15px;
+    right: 10px;
+    height: 50px;
+    width: 50px;
+}
+
+.InfoBar-text {
+    text-align: center;
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+}

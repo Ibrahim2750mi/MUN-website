@@ -1,0 +1,33 @@
+.MUN-Info {
+    color: #4a4a4a;
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 1.5;
+    width: 50%;
+    display: inline-block;
+    text-align: left;
+    padding-left: 100px;
+    padding-right: 150px;
+}
+
+.MUN-Info-heading {
+    text-align: left;
+}
+
+.MUN-wikipedia-popup {
+      display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 2;
+  visibility: hidden;
+  opacity: 0;
+  overflow: hidden;
+  transition: .64s ease-in-out;
+    
+}
